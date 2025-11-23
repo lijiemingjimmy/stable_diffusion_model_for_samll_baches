@@ -27,7 +27,8 @@ pip install -r requirements.txt
 
 `requirements.txt` 中包含 diffusers、transformers、accelerate、torch、opencv-python 等必要包。
 
-3. **下载预训练模型**：首次使用时，程序会自动从 Hugging Face 下载 `stabilityai/stable-video-diffusion-img2vid-xt` 模型权重。需要提前登录 Hugging Face 并接受模型授权。
+3. **下载预训练模型**：首次使用时，程序会自动从 Hugging Face 下载 `stabilityai/stable-video-diffusion-img2vid-xt` 模型权重。需要提前登录 Hugging Face 并接受模型授权。并且对于大陆用户（包括我自己），需要自己在网站上下载好再上传到容器中。
+
 
 ## 数据准备
 
